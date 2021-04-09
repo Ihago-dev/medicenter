@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,user-scalable=0">
+        <title>MediCenter</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+            </script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    </head>
+
+    <body>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------->
+       
+        <header>
+            <div class="container">
+
+                <div class="logo">
+                  <a href=""> <img src="logo.png" alt=""> </a>
+                </div>
+
+                <div class="menu">
+                 <nav>
+                     <div class="menuMobile">
+                         <div class="mm_line"></div>
+                         <div class="mm_line"></div>
+                         <div class="mm_line"></div>
+                     </div>
+                     <ul>
+                         <li class="active"><a href="">INICIO</a></li>
+                         <li><a href="">ATENDIMENTO</a></li>
+                         <li><a href="">ESTRUTURA</a></li>
+                         <li><a href="">CONVÊNIOS</a></li>
+                         <li><a href="">NOTÍCIAS</a></li>
+                     </ul>
+                 </nav>
+                </div>
+            </div>  
+        </header>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------->
+
+
+        <section id="banner">
+            <div class="container column">
+                    <div class="banner_headline">
+                        <h1>Uma nova experiência em cuidar de você</h1>
+                        <h2>O novo centro de referência em saúde de Colinas.</h2>
+                    </div>
+
+                    <div class="banner_options">
+                        <div class="banner1">
+                                <div class="banner_title">Missão</div>
+                                <div class="banner_description">Cuidar da saúde e do bem-estar dos pacientes e familiares.</div>
+                                <a href="">Leia Mais</a>
+                                
+                        </div>
+
+                        <div class="banner2">
+                                <div class="banner_title">Visão</div> 
+                                <div class="banner_description">Expandir em 40% a capacidade instalada e produtiva em até 5 anos, sendo a primeira escolha para os pacientes, médicos e operadoras.</div>
+                                <a href="">Leia Mais</a> 
+                        </div>
+
+                        <div class="banner3">
+                                <div class="banner_title">Valores</div>
+                                <div class="banner_description">Humanização – Ética – Qualidade – Trabalho em equipe – Responsabilidade socioambiental.</div>
+                                <a href="">Leia Mais</a> 
+                                
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------->
+
+
+        <section id="geral">
+            <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Ultimas Notícias</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body flex">
+                            
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 20</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="dr.jpg" alt="doutor">
+                                    </div>
+                                    <div class="news_title">
+                                        Processo Seletivo para Novos Médicos Cooperados
+                                    </div>
+                                    <div class="news_resume">
+                                        Em conformidade com o seu Estatuto Social, o Conselho de Administração do MediCenter, COMUNICA a todos os médicos interessados 
+                                        e devidamente habilitados que serão abertas inscrições, no período de 01 a 12 de fevereiro de 2021, 
+                                        para o ingresso no quadro de Cooperados do MediCenter, consoante regras e condições dispostas no presente Edital, 
+                                        sem exclusão das constantes nas normas internas da cooperativa. 
+                                     </div>
+                                 </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="uti_neonatal.jpg" alt="doutor">
+                                    </div>
+                                    <div class="news_title">
+                                        Tocantins recebe nova UTI Neonatal com leitos de isolamento e avança a Neonatologia da região Norte
+                                    </div>
+                                    <div class="news_resume">
+                                        Para avançar ainda mais a Saúde no Estado do Tocantins e da região Norte do País, o MediCenter inaugurou a mais nova Unidade de Terapia Intensiva
+                                         (UTI) Neonatal, em Colinas. Localizada no Hospital MediCenter, com 10 leitos, sendo oito normais e dois de isolamento, 
+                                         a UTI conta com tecnologia de ponta e equipe médica especializada. 
+                                         O atendimento começa a partir desta sexta-feira, 28/01.
+                                     </div>
+                                 </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="capacitacao.jpg" alt="doutor">
+                                    </div>
+                                    <div class="news_title">
+                                        Capacitação reforça qualidade nos atendimentos do MediCenter
+                                    </div>
+                                    <div class="news_resume">
+                                        As capacitações realizadas ao longo de 2020, resultaram em 1194 participações diretas de colaboradores, 
+                                        divididos nas mais variadas temáticas a exemplo de segurança do paciente, gestão do tempo, 
+                                        além da formação continuada e o Advanced Cardiovascular Life Support (ACLS), 
+                                        especialidade em emergência em que MediCenter possui a maior quantidade de médicos qualificados neste serviço.  
+                                     </div>
+                                 </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="video.JPG" alt="doutor">
+                                    </div>
+                                    <div class="news_title">
+                                        Hospital MediCenter adquire novo equipamento de vídeo
+                                    </div>
+                                    <div class="news_resume">
+                                        Pacientes do Hospital MediCenter contam, agora, com um novo equipamento para a realização de vídeo-cirurgia. 
+                                        A Torre de vídeo StrikerFullHD é um equipamento de última geração que proporciona uma imagem perfeita para a realização desses 
+                                        procedimentos menos invasivos. O equipamento atende a todas as especialidades que operam por vídeo, 
+                                        oferecendo aos cirurgiões maior segurança na realização dos procedimentos realizados nos seus pacientes.
+                                     </div>
+                                 </a>
+                            </article>
+
+
+                        </div>
+                    </div>
+                </section>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------->
+                
+
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title"></div>
+                        <div class="widget_title_text">Especialidades</div>
+                        <div class="widget_title_bar"></div>
+                    <div class="widget_body">
+                        <div class="widget_body1"><a href=""><h2 class="departamentos_text">Odontologia</h2></a></div>
+                        <div class="widget_body1"><a href=""><h2 class="departamentos_text">Clinica Geral</h2></a></div>
+                        <div class="widget_body1"><a href=""><h2 class="departamentos_text">Pediatra</h2></a></div>
+                        <div class="widget_body1"><a href=""><h2 class="departamentos_text">Ortopedia</h2></a></div>
+                        <div class="widget_body1"><a href=""><h2 class="departamentos_text">Cardiologia</h2></a></div>
+                        <div class="widget_body1"><a href=""><h2 class="departamentos_text">Neuro</h2></a></div>
+                    </div>
+                        
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget_title"></div>
+                            <div class="widget_title_text">Exames</div>
+                            <div class="widget_title_bar"></div>
+                        <div class="widget_body exames">
+                            <ul class="exames_list">
+                                <li><a href="">Análises Clínicas</a></li>
+                                <li><a href="">Biologia Molecular e Citogenética</a></li>
+                                <li><a href="">Marcadores Tumorais</a></li>
+                                <li><a href="">Exame de DNA</a></li>
+                                <li><a href="">Sexagem Fetal</a></li>
+                                <li><a href="">Teste Pezinho - Neonatologia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------->
+
+
+        <footer>
+            <div class="container flexColumn">
+                <div class="footer_menu">
+                    <div class="fm_1">
+                        <a href="">
+                            ...
+                        </a>
+                    </div>
+
+                    <div class="fm_2">
+                        <a href="">
+                            ...
+                        </a>
+                    </div>
+
+                    <div class="fm_3">
+                        <a href="">
+                            ...
+                        </a>
+                    </div>
+                </div>
+
+                 <div class="footer_area">
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                            </div>
+                            <div class="widget_body">
+                                <div class="logo_rodape">
+                                    <a href=""> <img src="logo.png" alt=""> </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Contatos:</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body">
+                                <div>
+                                    (63) 3476-5800
+                                </div>
+                                <div>
+                                    Av. Tenente Siqueira Campos, n°1159.<br>
+                                     Centro. Colinas do Tocantins <br> CEP - 77760-000
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Redes Socias:</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+
+                            <div class="widget_body">
+                              <div class="rede-social">
+                             <a href="">
+                                <i class="fab fa-twitter"></i>
+                            <span>    @medicentercolinas </span> </a>
+                               <br>
+                               <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>   /medicentercolinas </span> </a>
+                                <br>
+                                <a href="">
+                                     <i class="fab fa-instagram"></i>
+                           <span>    @medicentercolinas </span>  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+
+                 <div class="footer_copy">
+                    &copy;Copyright - Medicenter Template by Ihago DevSystem - Todos os direitos reservados
+                 </div>
+
+
+            </div>
+        </footer>
+
+    </body>
+
+</html>
